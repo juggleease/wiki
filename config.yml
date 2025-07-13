@@ -1,0 +1,11 @@
+db:
+  type: postgres
+  host: {{ env.DB_HOST }}
+  port: {{ env.DB_PORT }}
+  user: {{ env.DB_USER }}
+  pass: {{ env.DB_PASS }}
+  db:   {{ env.DB_NAME }}
+
+bindIP: 0.0.0.0
+logLevel: info
+dataPath: ./data
