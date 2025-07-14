@@ -1,5 +1,3 @@
-port: {{ env.PORT }} 
-
 db:
   type: postgres
   host: dpg-d1q3jaidbo4c73c3vasg-a.oregon-postgres.render.com
