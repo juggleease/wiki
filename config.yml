@@ -4,7 +4,7 @@ db:
   port: 5432
   user: juggleease
   pass: 0ZY2rh1tD45MjKuIwrzy60p8MzCCJDDH
-  db:   wikijs-db
+  db:   wikijs_db_oo8p
   ssl: true
 
 bindIP: 0.0.0.0
