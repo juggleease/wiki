@@ -2,9 +2,9 @@ db:
   type: postgres
   host: dpg-d1q3jaidbo4c73c3vasg-a.oregon-postgres.render.com
   port: 5432
-  user: {{ env.DB_USER }}
-  pass: {{ env.DB_PASS }}
-  db:   {{ env.DB_NAME }}
+  user: juggleease
+  pass: 0ZY2rh1tD45MjKuIwrzy60p8MzCCJDDH
+  db:   wikijs-db
   ssl: true
 
 bindIP: 0.0.0.0
