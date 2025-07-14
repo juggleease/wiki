@@ -5,6 +5,7 @@ db:
   user: {{ env.DB_USER }}
   pass: {{ env.DB_PASS }}
   db:   {{ env.DB_NAME }}
+  ssl: true
 
 bindIP: 0.0.0.0
 logLevel: info
